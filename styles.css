@@ -1,0 +1,28 @@
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: red;
+}
+
+#quote {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+    color: red;
+}
