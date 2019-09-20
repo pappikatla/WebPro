@@ -1,14 +1,10 @@
 tr:nth-child(even) {
     background-color: #f2f2f2
 }
-
-h1 {
-    text-align: center;
+tr:nth-child(odd) {
+    background-color: lightgrey;
 }
 
-div {
-    text-align: center;
-}
 
 body {
     font-family: sans-serif;
@@ -25,4 +21,35 @@ a:hover {
 span {
     font-weight: bold;
     color: red;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+}
+
+.none {
+    float: none;
+}
+
+#profile_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 341px;
+    height: 532px;
 }
